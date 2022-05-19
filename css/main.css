@@ -156,5 +156,45 @@ header p {
   font-size: x-large;
   text-align: justify; }
 
-.contenedor {
-  font-size: 50px; }
+#servicios {
+  background-color: #434343;
+  color: white; }
+
+.container {
+  text-align: center;
+  padding: 200px 12px;
+  max-width: 1400px;
+  margin: auto; }
+
+h2 {
+  padding: 30px; }
+
+p {
+  display: none; }
+
+.card {
+  padding: 40px 0px; }
+
+.card-1 {
+  background-color: aqua; }
+
+.card-2 {
+  background-color: rebeccapurple; }
+
+.card-3 {
+  background-color: beige; }
+
+button {
+  height: 50px;
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1em;
+  padding: 10px 20px;
+  box-shadow: 2px 2px 10px black;
+  color: azure;
+  background-color: #923792; }
+
+button:hover {
+  background-color: #3a0c65; }

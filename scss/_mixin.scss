@@ -1,0 +1,16 @@
+@mixin size-btn($h, $w){
+    height: $h;
+    width: $w;
+}
+
+@mixin weight-size($fw, $fs){
+    font-weight: $fw;
+    font-size: $fs;
+}
+
+
+@mixin b-r-s($border, $radius){
+    border: $border;
+    border-radius: $radius;
+}
+
