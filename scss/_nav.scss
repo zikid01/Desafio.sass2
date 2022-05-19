@@ -1,9 +1,9 @@
 @import "variables";
 
 nav{
-	background-color: $colorTres;
+	background-color: map-get($map: $palette, $key:'colorTres' );
 	border:solid ;
-	border-color: $colorCinco;
+	border-color: map-get($map: $palette, $key:'colorCinco' );
 
 
 	display: flex;
@@ -25,13 +25,13 @@ nav{
 	font-weight:400;
 	padding: 25px 25px;
 
-	color: $colorUno;
+	color: map-get($map: $palette, $key:'colorUno' );
     font-size: xx-large;
 
 }
 
     a:hover{
-	color: $colorSeis;
+	color: map-get($map: $palette, $key:'colorSeis' );
 
 }
 img{
@@ -40,6 +40,6 @@ img{
 
 	border:solid 6px;
 	border-radius: 4px;
-	border-color: $colorUno;
+	border-color: map-get($map: $palette, $key:'colorUno' );
 }
 }

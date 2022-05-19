@@ -1,6 +1,19 @@
-$colorUno: white;
-$colorDos: rgb(73, 9, 116);
-$colorTres: rgb(59, 14, 56) ;
-$colorCuatro: rgb(131, 85, 184);
-$colorCinco: rgb(0, 0, 0);
-$colorSeis: (14, 14, 119);
+// $colorUno: white;
+// $colorDos: rgb(73, 9, 116);
+// $colorTres: rgb(59, 14, 56) ;
+// $colorCuatro: rgb(131, 85, 184);
+// $colorCinco: rgb(0, 0, 0);
+// $colorSeis: (14, 14, 119);
+
+
+$palette: (
+    'colorUno': white,
+    'colorDos': rgb(73, 9, 116),
+    'colorTres': rgb(59, 14, 56) ,
+    'colorCuatro': rgb(131, 85, 184),
+    'colorCinco': rgb(0, 0, 0),
+    'colorSeis': rgb(14, 14, 119),
+    'color7': aqua,
+    'color8' :rebeccapurple,
+    'color9' :beige,
+);

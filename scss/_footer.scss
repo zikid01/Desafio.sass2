@@ -1,7 +1,7 @@
 #footer{
     display: flex;
     justify-content: space-between;
-    background-color: $colorCuatro;
+    background-color: map-get($map: $palette, $key:'colorCuatro' );// maps
 }
 footer{
 
@@ -31,7 +31,7 @@ footer{
         list-style-type: none;
     }
         li a{
-        color: $colorUno;
+        color: map-get($map: $palette, $key:'colorUno' );// maps
         padding: 0;
 
         a{
@@ -42,7 +42,7 @@ footer{
     }
     .footer_redes a{
         display: block;
-        color: $colorUno;
+        color: map-get($map: $palette, $key:'colorUno' );// maps
         padding: 0;
     }
 }

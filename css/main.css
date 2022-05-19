@@ -17,7 +17,7 @@ nav {
     color: white;
     font-size: xx-large; }
   nav a:hover {
-    color: 14, 14, 119; }
+    color: #0e0e77; }
   nav img {
     width: 100px;
     height: 100px;
@@ -78,8 +78,7 @@ body {
   font-family: 'Patrick Hand', cursive;
   background-color: #490974;
   margin: 0;
-  padding: 0;
-  color: white; }
+  padding: 0; }
 
 .contenedor {
   padding: 150px 20px;
@@ -169,9 +168,6 @@ header p {
 h2 {
   padding: 30px; }
 
-p {
-  display: none; }
-
 .card {
   padding: 40px 0px; }
 
@@ -193,7 +189,7 @@ button {
   font-size: 1em;
   padding: 10px 20px;
   box-shadow: 2px 2px 10px black;
-  color: azure;
+  color: white;
   background-color: #923792; }
 
 button:hover {
