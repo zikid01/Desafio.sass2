@@ -1,0 +1,48 @@
+#footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: $colorCuatro;
+}
+footer{
+
+    .footer_logoMap{
+        display: inline;
+    
+    }
+    .footer_logo{
+        display: inline;
+        width: 110px;
+        height: 110px;
+    }
+    .footer_map{
+        display: inline;
+        height: 50px;
+        width: 50px;
+    }
+    .footer_menu{
+        text-decoration: none;
+        padding: 5px;
+        font-size: small;
+        
+    }
+    .footer_list{
+        padding: 0;
+        text-decoration: none;
+        list-style-type: none;
+    }
+        li a{
+        color: $colorUno;
+        padding: 0;
+
+        a{
+        display: block;
+        margin: 5px 0px;
+        color: rgb(0, 0, 0);
+    }
+    }
+    .footer_redes a{
+        display: block;
+        color: $colorUno;
+        padding: 0;
+    }
+}

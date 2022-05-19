@@ -1,0 +1,45 @@
+@import "variables";
+
+nav{
+	background-color: $colorTres;
+	border:solid ;
+	border-color: $colorCinco;
+
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: sticky;
+	top: 0;
+
+
+    li{
+	/* estilo de listas */
+	display: inline-block;
+}
+
+
+
+    li a{
+	text-decoration: none;	
+	font-weight:400;
+	padding: 25px 25px;
+
+	color: $colorUno;
+    font-size: xx-large;
+
+}
+
+    a:hover{
+	color: $colorSeis;
+
+}
+img{
+    width: 100px;
+	height: 100px;
+
+	border:solid 6px;
+	border-radius: 4px;
+	border-color: $colorUno;
+}
+}
