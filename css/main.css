@@ -98,7 +98,7 @@ body {
 header h1 {
   text-align: center;
   font-weight: bolder;
-  font-size: 150px; }
+  font-size: 6em; }
 
 header img {
   display: block;
@@ -108,7 +108,7 @@ header img {
 
 header h3 {
   text-align: left;
-  font-size: xx-large; }
+  font-size: 3em; }
 
 header p {
   text-align: justify;
@@ -127,7 +127,7 @@ header p {
 .section-productos h3 {
   text-align: center;
   font-weight: bold;
-  font-size: 50px; }
+  font-size: 3em; }
 
 .section-productos p {
   text-align: center;
@@ -149,7 +149,7 @@ header p {
 
 .section-us h3 {
   margin: 5px 0;
-  font-size: 50px; }
+  font-size: 3em; }
 
 .section-us p {
   font-size: x-large;
@@ -166,7 +166,7 @@ header p {
   margin: auto; }
 
 h2 {
-  padding: 30px; }
+  font-size: 4em; }
 
 .card {
   padding: 40px 0px; }
@@ -180,7 +180,7 @@ h2 {
 .card-3 {
   background-color: beige; }
 
-button {
+.btn-1, .btn-2, .btn-3 {
   height: 50px;
   width: 100px;
   border: 1px solid black;
@@ -194,3 +194,9 @@ button {
 
 button:hover {
   background-color: #3a0c65; }
+
+.btn-2 {
+  background-color: blue; }
+
+.btn-3 {
+  background-color: green; }

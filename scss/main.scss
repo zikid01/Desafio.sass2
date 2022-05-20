@@ -1,7 +1,7 @@
 @import "variables";
 @import "nav";
 @import "footer";
-@import "mixin.scss";
+@import "mixin";
 
 *{
 	/* reset */
@@ -44,7 +44,7 @@ header{
     h1{
         text-align: center;
 	font-weight: bolder;
-    font-size: 150px;
+    font-size: map-get($headings, h1 );
     }
     img{
         display:block;
@@ -54,7 +54,7 @@ header{
     }
     h3{
         text-align: left;
-	font-size: xx-large;
+        font-size: map-get($headings, h3 )
     }
 
     p{
@@ -78,7 +78,7 @@ header{
     h3{
         text-align: center;
         font-weight: bold;
-        font-size: 50px;
+        font-size: map-get($headings, h3 )
     }
     p{
         text-align: center;
@@ -105,7 +105,7 @@ header{
     }
     h3{
         margin: 5px 0;
-        font-size: 50px; 
+        font-size: map-get($headings, h3 );// maps 
     }
     p{
             font-size: x-large;
@@ -128,7 +128,7 @@ header{
 
 
         h2{
-    padding: 30px;
+        font-size: map-get($headings, h2 );
 }
 
 
@@ -150,7 +150,7 @@ header{
     background-color: map-get($map: $palette, $key:'color9' );// maps
 }
 
-button{
+.btn-1{
     @include size-btn(50px, 100px);// mixin
     @include b-r-s(1px solid black, 10px);// mixin
     @include weight-size(bold, 1em);// mixin
@@ -163,3 +163,14 @@ button{
 button:hover{
     background-color: rgb(58, 12, 101);
 }
+// extend
+.btn-2{
+    @extend .btn-1;              // extend
+    background-color: blue;
+
+}
+.btn-3{
+    @extend .btn-1;             // extend
+    background-color: green;
+}
+
